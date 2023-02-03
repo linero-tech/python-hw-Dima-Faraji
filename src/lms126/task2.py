@@ -1,5 +1,10 @@
 from to_do import TODO
-
-
 def task2():
-    return TODO("Erase this line and write your solution")
+    return """
+    Area of Rectangle:
+    Start
+    Input Width (W) and Height (H).
+    Multiply(*) Width (W) and Height (H), and store (=) it in Area (A)
+    Print Area (A)
+    Stop
+"""
