@@ -4,6 +4,7 @@ def task2():
     # Width = ("Input  Width (W)")
     # Area = ("Multiply(*) Width (W) and Height (H)")
     # Print = ("Output = Print Area (A)")
+
     return """
     Area of Rectangle:
     Start
