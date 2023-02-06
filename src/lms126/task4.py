@@ -5,9 +5,9 @@ def task4():
     Start
     Input X and Y
     if X > Y
-    Print X is grater than Y
+    Output = Print X is grater than Y
     Else
-    Print Y is greater than X
+    Output = Print Y is greater than X
     End 
     
 """
