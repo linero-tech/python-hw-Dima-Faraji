@@ -3,16 +3,20 @@ from to_do import TODO
 
 def task11():
     return """
-    Fahrenheit_Celsius_conversion
-    Set temperature_count to zero
-    WHILE temperature_count < 15
-    prompt operator for f_temp
-    get f_temp
-    compute c_temp = (f_temp - 32) * 5/9
-    display c_temp
-    add 1 to temperature_count
-    END WHILE
-    Display "All temperatures processed" to the screen
-    END
+    Start
+    Converting temperatures from F to C
+    INPUT get temperature (F) in Fahrenheit from end-user ("Enter temperature in Fahrenheit: ")
+    
+    Subtract 32 from temperature in Fahrenheit and multiply the result by 5/9
+    C = (F - 32) * (5 / 9)
+    Output print C
+    
+    Converting temperatures from C to F
+    INPUT get temperature (C) in Celsius from end-user ("Enter temperature in Celsius: ")
+    
+    F = (C * 9)/5 + 32
+    Output print F
+     
+End
 
-    """
+"""
