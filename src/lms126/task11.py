@@ -6,8 +6,8 @@ def task11():
     Start
     Converting temperatures from F to C
     INPUT get temperature (F) in Fahrenheit from end-user ("Enter temperature in Fahrenheit: ")
-    
-    Subtract 32 from temperature in Fahrenheit and multiply the result by 5/9
+    Subtract 32 from temperature in Fahrenheit 
+    Multiply the result by 5/9
     C = (F - 32) * (5 / 9)
     Output print C
     
