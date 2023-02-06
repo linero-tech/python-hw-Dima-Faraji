@@ -11,8 +11,8 @@ def task10():
     print ("Name are taken, please enter another name")
     
     INPUT password
-    password => six characters
-        If password => six characters then print ( "Password looks good!")
+    password length => six characters
+        If password length => six characters then print ( "Password looks good!")
     Else
     Print ("You need to enter six characters long!)
     
