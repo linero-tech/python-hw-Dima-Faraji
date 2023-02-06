@@ -4,7 +4,7 @@ def task5():
     return """
     Start
     print(" Please Enter x from 1 to 7 (Consider 1= Monday, and 7 = Sunday)"): 
-    Read number x
+    Input number x
     If x = 1 then print "Monday is 1"
     else
     If x = 2 then print "Tuesday is 2" 
