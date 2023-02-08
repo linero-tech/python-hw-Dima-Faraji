@@ -9,17 +9,18 @@ def task8():
     # Else print "Qix"
 
     return """
+    Start
+    
     Input number X
     If x is multiples of 3 
-    Output = print "Foo"
-    Else
-    If x is multiples of 5 then 
-    Output = print "Bar"
-    Else
-    If x is multiples of 3 and 5 
-    Output= print "FooBar"
+     OUTPUT print "Foo"
+    Else if x is multiples of 5 
+     OUTPUT print "Bar"
+    Else if x is multiples of 3 and 5 
+     OUTPUT print "FooBar"
     Else 
-    output= print "Qix"
+     OUTPUT print "Qix"
+     
     End
     
 """
