@@ -5,12 +5,14 @@ from to_do import TODO
 # Perimeter of Circle: Also known as the circumference. It is given by the formula
 # Perimeter = 2*π*R
 # π = 3.14
-
 radius = 2.0
-result = (2*3.14*radius)
-print(f"result is {result}")
+pi = 3.14
+result = 2 * pi * radius
+print(f"Perimeter of Circle: {result}")
 
 def task3(radius):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    radius = 2.0
+    pi = 3.14
+    result = 2 * pi * radius
+    print("Perimeter of Circle: {result}")
+    return result
