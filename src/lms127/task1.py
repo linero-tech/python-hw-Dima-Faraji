@@ -1,5 +1,4 @@
-from to_do import TODO
-
+print("Country: Sweden \nCapital: Stockholm \nCurrency: SEK")
 
 def task1():
-    TODO("Erase this line and write your solution")
+    print("Country: Sweden \nCapital: Stockholm \nCurrency: SEK")
