@@ -12,5 +12,5 @@ def task3(radius):
     print(result)
     return result
 if __name__ == "__main__":
-        task3(2.0)
+        task3(radius=2.0)
 
