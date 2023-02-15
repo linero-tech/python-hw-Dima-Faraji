@@ -1,5 +1,8 @@
 from to_do import TODO
-
+base = 5.0
+height = 10.0
+result = 0.5*(base*height)
+print(result)
 
 def task4(base, height):
     return TODO(
