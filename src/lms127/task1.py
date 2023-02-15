@@ -7,5 +7,5 @@ def task1():
     message = f"{country}: \n {capital}: \n {currency}: "
     print(f"{message.title()}")
 
-    if __name__ == "__main__":
-        task1()
+    if __name__ != "__main__":
+        return
