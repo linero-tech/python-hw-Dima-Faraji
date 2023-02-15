@@ -9,7 +9,6 @@ from to_do import TODO
 def task3(radius):
     pi = 3.14
     result = 2 * pi * radius
-    print(result)
     return result
 if __name__ == "__main__":
-        task3(radius=2.0)
+        print(task3(radius=2.0))
