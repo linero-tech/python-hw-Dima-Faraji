@@ -1,6 +1,6 @@
 from to_do import TODO
 name = "Dima"
-country = "Sweden"
+country = "Syria"
 month = "December"
 message = f"Hello {name}, you are from {country} and you were born in {month}"
 print(message)
