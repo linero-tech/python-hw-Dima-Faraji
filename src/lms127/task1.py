@@ -5,8 +5,7 @@ def task1():
     capital = "Stockholm"
     currency = "SEK"
     message = f"Country: {country} \nCapital: {capital} \nCurrency: {currency} "
-    print(f"{message.title()}")
     return message
 
 if __name__ == "__main__":
-    task1()
+    print(task1())
