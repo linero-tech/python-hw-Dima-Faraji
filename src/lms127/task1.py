@@ -2,7 +2,7 @@ from to_do import TODO
 
 # 'Country: COUNTRY NAME\nCapital: CAPITAL NAME\nCurrency: CURRENCY NAME\n'
 def task1():
-    result = "Country: Sweden\nCapital: Stockholm\nCurrency: SEK\n"
+    result = "Country: Panama\nCapital: Panama City\nCurrency: USD\n"
     return result
 
 
