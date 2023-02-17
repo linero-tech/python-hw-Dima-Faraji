@@ -2,6 +2,7 @@ from to_do import TODO
 
 
 def task1():
+    
     country = "Sweden"
     capital = "Stockholm"
     currency = "SEK"
