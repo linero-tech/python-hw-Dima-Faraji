@@ -1,6 +1,3 @@
-from collections import OrderedDict
-from itertools import count
-
 from to_do import TODO
 
 
@@ -22,8 +19,10 @@ def task10_4(assessments):
     result = assessments[0:3]
     return result
 
+
 if __name__ == "__main__":
     print(task10_1(assessments="LMHHF"))
     print(task10_2(assessments="LMFHMF"))
     print(task10_3(assessments="LMFHM"))
     print(task10_4(assessments="LMFHM"))
+    
