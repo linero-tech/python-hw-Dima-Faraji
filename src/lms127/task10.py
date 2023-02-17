@@ -9,14 +9,13 @@ def task10_1(assessments):
     return result
 
 def task10_2(assessments):
-    result_2 = assessments[3]
-    return result_2
+    result = assessments[3]
+    return result
 
 
 def task10_3(assessments):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = assessments[(len(assessments) - 1) // 2:(len(assessments) + 2) // 2]
+    return result
 
 
 def task10_4(assessments):
@@ -26,3 +25,4 @@ def task10_4(assessments):
 if __name__ == "__main__":
     print(task10_1(assessments="LMHHF"))
     print(task10_2(assessments="LMFHMF"))
+    print(task10_3(assessments="LMFHM"))
