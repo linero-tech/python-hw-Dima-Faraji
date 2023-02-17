@@ -1,8 +1,8 @@
 from to_do import TODO
 
-
+# 'Country: COUNTRY NAME\nCapital: CAPITAL NAME\nCurrency: CURRENCY NAME\n'
 def task1():
-    result = f"Country: Sweden \nCapital: Stockholm \nCurrency: SEK"
+    result = "Country: Sweden\nCapital: Stockholm\nCurrency: SEK\n"
     return result
 
 
