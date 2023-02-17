@@ -25,4 +25,3 @@ if __name__ == "__main__":
     print(task10_2(assessments="LMFHMF"))
     print(task10_3(assessments="LMFHM"))
     print(task10_4(assessments="LMFHM"))
-    
