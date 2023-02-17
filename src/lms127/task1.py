@@ -5,8 +5,8 @@ def task1():
     country = "Sweden"
     capital = "Stockholm"
     currency = "SEK"
-    message = f"Country: {country} \nCapital: {capital} \nCurrency: {currency} "
-    return message
+    result = f"Country: {country} \nCapital: {capital} \nCurrency: {currency} "
+    return result
 
 
 if __name__ == "__main__":
