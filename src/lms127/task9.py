@@ -6,4 +6,4 @@ def task9(sentence, character):
     return result
 
 if __name__ == "__main__":
-        print(task9("I code In KOTLIN", "I"))
+        print(task9("I code In KOTLIN".lower(), "i"))
