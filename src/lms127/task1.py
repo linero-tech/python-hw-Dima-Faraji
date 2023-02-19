@@ -2,7 +2,7 @@ from to_do import TODO
 
 # 'Country: COUNTRY NAME\nCapital: CAPITAL NAME\nCurrency: CURRENCY NAME\n'
 def task1():
-    return "Country: Panama\nCapital: Panama City\nCurrency: USD\n"
+    return
 
 if __name__ == "__main__":
-    print(task1())
+    print("Country: Panama\nCapital: Panama City\nCurrency: USD\n")
