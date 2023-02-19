@@ -5,8 +5,7 @@ def task1():
     country = "United Arab Emirates"
     capital = "Abu Dhabi"
     currency = "AED"
-    result = f"Country: {country}\nCapital: {capital}\nCurrency: {currency}\n"
-    return result
+    print(f"Country: {country}\nCapital: {capital}\nCurrency: {currency}\n")
 
 if __name__ == "__main__":
-    print(task1())
+    task1()
