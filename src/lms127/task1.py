@@ -5,7 +5,7 @@ def task1():
     print("Country: United Arab Emirates")
     print("Capital: Abu Dhabi")
     print("Currency: AED")
-    
+
 
 if __name__ == "__main__":
     task1()
