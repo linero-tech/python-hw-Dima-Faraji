@@ -12,4 +12,3 @@ def task1(a, b):
 if __name__ == "__main__":
     task1(1, 5)
     task1(3, 3)
-   
