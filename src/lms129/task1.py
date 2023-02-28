@@ -7,6 +7,7 @@ def task1(a, b):
         print(0)
     else:
         print(a, b)
+
     return result
 
 if __name__ == "__main__":
