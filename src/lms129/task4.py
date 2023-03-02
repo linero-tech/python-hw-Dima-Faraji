@@ -8,5 +8,7 @@ def task4():
         if number % 9 == 0:
             print(number)
 
+
+
 if __name__ == "__main__":
     task4()
