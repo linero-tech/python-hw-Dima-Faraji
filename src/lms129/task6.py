@@ -2,6 +2,14 @@ from to_do import TODO
 
 
 def task6(number):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = 0
+
+    while number != 0:
+        digit = number % 10
+        result = result * 10 + digit
+        number //= 10
+    return result
+
+
+if __name__ == "__main__":
+    print(task6(678))
