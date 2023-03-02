@@ -11,11 +11,11 @@ def task2(number):
         # check for factors
         for i in range(2, number):
             if (number % i) == 0:
-                # if factor is found, set flag to True
+                # if factor is found, set result to True
                 result = True
                 # break out of loop
                 break
-        # check if flag is True
+        # check if result is True
         if result:
             print("false")
         else:

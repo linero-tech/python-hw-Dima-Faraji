@@ -2,6 +2,15 @@ from to_do import TODO
 
 
 def task3(number):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    factorial = 1
+    if number < 0:
+        print("Sorry, factorial does not exist for negative numbers")
+    elif number == 0:
+        print("The factorial of 0 is 1")
+    else:
+        for i in range(1, number + 1):
+            factorial = factorial * i
+        return print(factorial)
+
+if __name__ == "__main__":
+    task3(5)
