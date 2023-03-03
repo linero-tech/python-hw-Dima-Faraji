@@ -3,7 +3,7 @@ from to_do import TODO
 
 def task2(number):
     # Program to check if a number is prime or not
-    # define a flag variable
+    # define a result variable
     result = False
     if number == 1:
         print("false")
