@@ -2,13 +2,12 @@ from to_do import TODO
 
 
 def task4():
-    begin = 1
-    end = 1000
-    for result in range(begin, end + 1):
-        if result % 9 == 0:
-            print(result)
+    total = 0
 
-    return result
+    for result in range(1, 1000):
+        if result % 9 == 0:
+            total += result
+    return total
 
 if __name__ == "__main__":
-    print(task4())
+        print(task4())
