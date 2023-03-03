@@ -13,4 +13,4 @@ def task3(number):
         return print(factorial)
 
 if __name__ == "__main__":
-    task3(5)
+    task3(3)

@@ -3,7 +3,7 @@ from to_do import TODO
 
 def task1(a, b):
     result = a, b
-    for var in result:
+    for i in result:
         if a >= b:
             result = 0
         else:
