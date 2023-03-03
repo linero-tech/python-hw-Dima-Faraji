@@ -2,8 +2,8 @@ from to_do import TODO
 
 
 def task1(a, b):
-    result = a, b
-    for i in result:
+
+    for result in (a, b):
         if a >= b:
             result = 0
         else:
@@ -14,4 +14,3 @@ def task1(a, b):
 
 if __name__ == "__main__":
     print(task1(a=1, b=5))
-    print(task1(3, 3))
