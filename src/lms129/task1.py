@@ -3,14 +3,15 @@ from to_do import TODO
 
 def task1(a, b):
     result = a, b
-    if a >= b:
-        print(0)
-    else:
-        print(a, b)
+    for var in result:
+        if a >= b:
+            result = 0
+        else:
+            result = a,b
 
     return result
 
 
 if __name__ == "__main__":
-    task1(1, 5)
-    task1(3, 3)
+    print(task1(1, 5))
+    print(task1(3, 3))
