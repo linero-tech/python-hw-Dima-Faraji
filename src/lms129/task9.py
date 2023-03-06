@@ -7,12 +7,12 @@ def task9(temperature):
 
     if unit == 'C' or unit == 'c':
         newTemp = 9 / 5 * temperature + 32
-        print("Temperature is", newTemp,"F")
+        return print("Temperature is", newTemp,"F")
     elif unit == 'F' or unit == 'f':
         newTemp = 5 / 9 * (temperature - 32)
-        print("Temperature is", newTemp,"C")
+        return print("Temperature is", newTemp,"C")
     else:
-        print("Unknown unit", unit)
+        return print("Unknown unit", unit)
 
 
 if __name__ == "__main__":
