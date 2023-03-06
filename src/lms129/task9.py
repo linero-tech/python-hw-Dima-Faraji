@@ -2,19 +2,23 @@ from to_do import TODO
 
 
 def task9(temperature):
-    print("Options are: \n")
-    print("1.Convert temperatures from Celsius to Fahrenheit \n")
-    print("2.Convert temperatures from Fahrenheit to Celsius \n")
-    result = int(input("Choose any Option(1 or 2) : "))
-    if result == 1:
-        cel = float(temperature)
-        fahr = (cel * 9 / 5) + 32
-        return f"{int(fahr)}F"
+    import math
+
+    if temperature[-1] == "C" or temperature[-1] == "c":
+        result = float(temperature[:-1]) * 9 / 5 + 32
+        result = f"{str(math.trunc(result))}F"
+
+    elif temperature[-1] == "F" or temperature[-1] == "f":
+        result = (float(temperature[:-1]) - 32) * 5 / 9
+        result = f"{str(math.trunc(result))}C"
+
     else:
-        fahr = float(temperature)
-        cel = (fahr - 32) * 5 / 9
-        return f"{int(cel)}C"
+        result = "Invalid input"
+
+    return result
 
 
 if __name__ == "__main__":
-    print(task9(-30))
+    print(task9("-30C"))
+    print(task9("37C"))
+    print(task9("-22F"))
