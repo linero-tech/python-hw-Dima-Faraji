@@ -3,11 +3,11 @@ from to_do import TODO
 
 def task1(a, b):
     result = 0
-    for result in (a, b):
+    for i in range(a, b+1):
         if a >= b:
             result = 0
         else:
-            result = f"{a}{b}"
+            result += i
 
     return result
 
