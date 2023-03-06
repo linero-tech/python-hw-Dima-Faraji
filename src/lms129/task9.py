@@ -2,18 +2,10 @@ from to_do import TODO
 
 
 def task9(temperature):
-    temperature = float(input("Enter Temperature: "))
-    unit = input("Enter unit('C' for Celsius or 'F' for Fahrenheit): ")
 
-    if unit == 'C' or unit == 'c':
-        newTemp = 9 / 5 * temperature + 32
-        return print("Temperature is", newTemp,"F")
-    elif unit == 'F' or unit == 'f':
-        newTemp = 5 / 9 * (temperature - 32)
-        return print("Temperature is", newTemp,"C")
-    else:
-        return print("Unknown unit", unit)
+   fahrenheit = (temperature * 1.8) + 32
 
+   return ('%.2f Celsius is equivalent to: %.2f Fahrenheit' % (temperature, fahrenheit))
 
 if __name__ == "__main__":
-    (task9(30))
+    print(task9(-30))
