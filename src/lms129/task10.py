@@ -4,7 +4,7 @@ import re
 def task10(password):
     result = True
     while result:
-        if (len(password) < 6 or len(password) > 10):
+        if (len(password) <= 6 or len(password) > 10):
             break
         elif not re.search("[a-z]", password):
             break
@@ -13,8 +13,6 @@ def task10(password):
         elif not re.search("[A-Z]", password):
             break
         elif not re.search("[$#@]", password):
-            break
-        elif re.search("\s", password):
             break
         else:
             print("Valid Password")
@@ -26,4 +24,4 @@ def task10(password):
 
 
 if __name__ == "__main__":
-    task10("DmF122345@")
+    task10("DmFf2345@")
