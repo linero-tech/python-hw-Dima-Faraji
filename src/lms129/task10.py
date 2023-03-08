@@ -3,25 +3,14 @@ import re
 
 def task10(password):
     result = True
-    while result:
-        if (len(password) <= 6 or len(password) > 10):
-            break
-        elif not re.search("[a-z]", password):
-            break
-        elif not re.search("[0-9]", password):
-            break
-        elif not re.search("[A-Z]", password):
-            break
-        elif not re.search("[$#@]", password):
-            break
-        else:
-            print("Valid Password")
-            result = False
-            break
+    if re.fullmatch(r'[A-Za-z0-9@#$]{6,10}', password):
+        print("Valid Password") # match
 
-    if result:
-        print("Not a Valid Password")
+    else:
+        print("Not a Valid Password") # no match
+
+    return result
 
 
 if __name__ == "__main__":
-    task10("DmFf2345@")
+    task10("DmFf2@")
