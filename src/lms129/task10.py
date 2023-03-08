@@ -2,17 +2,27 @@ from to_do import TODO
 import re
 
 def task10(password):
-    rules = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[$#@])[A-Za-z\d@$#]{6,10}$"
+    flag = 0
 
-    # compiling regex
-    match_re = re.compile(rules)
-    # searching regex
-    result = re.search(match_re, password)
-    # validating conditions
-    if result:
-        print("Valid Password")
+    if not re.search('[0-9]', password):
+        flag = 1
+
+    if not re.search('[a-z]', password):
+        flag = 1
+
+    if not re.search('[A-Z]', password):
+        flag = 1
+
+    if not re.search('[$#@]', password):
+        flag = 1
+
+    if len(password) < 6 or len(password) > 10:
+        flag = 1
+
+    if (flag == 0):
+        print('Password is valid')
     else:
-        print("Invalid Password")
+        print('Password is invalid')
 
 if __name__ == "__main__":
-    task10("DmFf21w3#@")
+    task10("DmFf1w3#@")
