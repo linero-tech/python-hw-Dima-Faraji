@@ -1,30 +1,29 @@
 from to_do import TODO
-
+import re
 
 def task10(password):
-    SpecialSym = ['$', '@', '#']
     result = True
+    while result:
+        if (len(password) < 6 or len(password) > 10):
+            break
+        elif not re.search("[a-z]", password):
+            break
+        elif not re.search("[0-9]", password):
+            break
+        elif not re.search("[A-Z]", password):
+            break
+        elif not re.search("[$#@]", password):
+            break
+        elif re.search("\s", password):
+            break
+        else:
+            print("Valid Password")
+            result = False
+            break
 
-    if len(password) < 6:
-        result = False
-
-    if len(password) > 10:
-        result = False
-
-    if not any(char.isdigit() for char in password):
-        result = False
-
-    if not any(char.isupper() for char in password):
-        result = False
-
-    if not any(char.islower() for char in password):
-        result = False
-
-    if not any(char in SpecialSym for char in password):
-        result = False
-    else:
-        return result
+    if result:
+        print("Not a Valid Password")
 
 
 if __name__ == "__main__":
-    print(task10("DmF122345@"))
+    task10("DmF122345@")
