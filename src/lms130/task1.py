@@ -1,7 +1,9 @@
 from to_do import TODO
-
+import random
 
 def task1(items):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    return random.choice(items)
+
+if __name__ == "__main__":
+    print(task1(items=[111, 222, 333, 444, 555]))
